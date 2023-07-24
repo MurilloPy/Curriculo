@@ -1,10 +1,4 @@
-:root{
-
-    background-color: #dcdcdc;
-
-}
-
-*{
+* {
 
     padding: 0;
     margin: 0;
@@ -13,14 +7,24 @@
 
 }
 
-.div-pai{
+
+:root {
+
+    background-color: #dcdcdc;
+
+}
+
+
+.div-pai {
 
     display: flex;
     justify-content: center;
     overflow: hidden;
+
 }
 
-.div-main{
+
+.div-main {
 
     background-color: white;
     width: 1000px;
@@ -29,14 +33,16 @@
 
 }
 
-.quadrado{
+
+.quadrado {
 
     background-color: #003147;
-    width: 410px;
+    width: 350px;
     height: 959px;
     overflow: hidden;
 
 }
+
 
 .div-dados {
     
@@ -46,44 +52,71 @@
 
 }
 
-#image-profile{
+
+#image-profile {
 
     position: absolute;
     width:200px;
     top:40px;
-    left:520px;
+    left:490px;
     border-radius: 999px;
 
 }
 
-#nome-completo{
+
+#nome-completo {
 
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 34px;
     color:white;
     top:260px;
-    left:480px;
+    left:468px;
 
 }
 
-#cargo{
+
+#cargo {
 
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
     font-size:28px;
     color: rgb(229, 229, 229);
     top: 309px;
-    left: 580px;
+    left: 550px;
 
 }
 
-PAREI AQUI - 21/07/2023
 
-.divisor{
+.divisor {
 
-    border: solid rgb(23, 194, 8) 1px;
+    border: solid rgba(255, 255, 255, 0.356) 1px;
+    border-radius: 90000px;
     position: absolute;
     width: 300px;
-    right:40px;
+    right: 1109px;
+    bottom: 580px;
+
+}
+
+#contatos, #telefone{
+    position: absolute;
+    width: 58px;
+    top: 430px;
+    margin-left: 10px;
+}
+
+#contatos h1{
+    position: absolute;
+    color:rgb(255, 255, 255);
+    top: 443px;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+#contatos{
+    position: absolute;
+    width:1000px;
+    top:-20px;
 }
