@@ -43,23 +43,14 @@
 
 }
 
-
-.div-dados {
-    
-    position: absolute;
-    left:900px;
-    bottom:850px;
-
-}
-
-
 #image-profile {
 
     position: absolute;
     width:200px;
     top:40px;
     left:490px;
-    border-radius: 999px;
+    border: solid white 1px;
+    border-radius: 999999px;
 
 }
 
@@ -87,6 +78,14 @@
 
 }
 
+/* NÃO ESTOU CONSEGUINDO MOVER OS ELEMENTOS DENTRO DESTÁ DIV */
+.span-contatos{
+
+    display: flex;
+    top:203px;
+
+}
+/* NÃO CONSIGO MOVER OS ELEMENTOS DENTRO DESTÁ DIV */
 
 .divisor-superior {
 
@@ -102,7 +101,7 @@
 .divisor-inferior{
 
     border: solid rgba(255, 255, 255, 0.356) 1px;
-    border-radius: 90000px;
+    border-radius: 9000px;
     position: absolute;
     width: 300px;
     right: 1109px;
@@ -147,6 +146,26 @@
     font-size: 23px;
     color: white;
     bottom: 450px;
+    margin-left: 75px;
+
+}
+
+#website-icon{
+
+    position: absolute;
+    width: 30px;
+    bottom: 399px;
+    margin-left: 32px;
+
+}
+
+#website-text{
+
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: white;
+    bottom: 399px;
     margin-left: 75px;
 
 }
