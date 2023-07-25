@@ -88,7 +88,7 @@
 }
 
 
-.divisor {
+.divisor-superior {
 
     border: solid rgba(255, 255, 255, 0.356) 1px;
     border-radius: 90000px;
@@ -99,24 +99,54 @@
 
 }
 
-#contatos, #telefone{
+.divisor-inferior{
+
+    border: solid rgba(255, 255, 255, 0.356) 1px;
+    border-radius: 90000px;
     position: absolute;
-    width: 58px;
-    top: 430px;
-    margin-left: 10px;
+    width: 300px;
+    right: 1109px;
+    bottom: 380px;
+
 }
 
-#contatos h1{
+#telefone-icon{
+
     position: absolute;
-    color:rgb(255, 255, 255);
-    top: 443px;
-    margin-left: 80px;
+    width:30px;
+    bottom: 499px;
+    margin-left: 30px;
+
+}
+
+#number{
+
+    position: absolute;
+    width: 290px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 23px;
+    color:white;
+    bottom: 500px;
+    margin-left: 75px;
+
 }
 
-#contatos{
+#email-icon{
+
     position: absolute;
-    width:1000px;
-    top:-20px;
+    width: 30px;
+    bottom: 449px;
+    margin-left: 32px;
+
+}
+
+#email-text{
+
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: white;
+    bottom: 450px;
+    margin-left: 75px;
+
 }
