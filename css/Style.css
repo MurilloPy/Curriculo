@@ -25,7 +25,7 @@
 
 
 .div-main {
-
+    
     background-color: white;
     width: 1000px;
     border: solid #000000 1px;
@@ -36,6 +36,7 @@
 
 .quadrado {
 
+    display: flex;
     background-color: #003147;
     width: 350px;
     height: 959px;
@@ -77,15 +78,6 @@
     left: 550px;
 
 }
-
-/* NÃO ESTOU CONSEGUINDO MOVER OS ELEMENTOS DENTRO DESTÁ DIV */
-.span-contatos{
-
-    display: flex;
-    top:203px;
-
-}
-/* NÃO CONSIGO MOVER OS ELEMENTOS DENTRO DESTÁ DIV */
 
 .divisor-superior {
 
